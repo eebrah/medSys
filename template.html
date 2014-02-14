@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="body">
+				<div class="column main">
+					<div>
+						<form action=""
+						      method="post">
+							<fieldset class="info">
+								<legend>measurements</legend>
+								<div class="row">
+									<input type="text"
+									       name="weight"
+									       placeholder="weight in kgs"
+									       required="required" />
+								</div>
+								<div class="row">
+									<input type="text"
+									       name="height"
+									       placeholder="height in cm"
+									       required="required" />
+								</div>
+								<div class="row">
+									<input type="text"
+									       name="bp"
+									       placeholder="blood pressure in sys/dia format"
+									       required="required" />
+								</div>
+							</fieldset>
+							<fieldset class="buttons">
+								<button type="reset">reset</button>
+								<button type="submit">submit</button>
+							</fieldset>
+						</form>
+					</div>
+					<div>
+						<form action=""
+						      method="post">
+							<fieldset class="info">
+								<legend>new patient</legend>
+								<div class="row">
+									<input type="text"
+									       name="name"
+									       placeholder="patients name"
+									       required="required" />
+								</div>
+								<div class="row">
+									<select name="gender"
+									        required="required">
+										<option value="0">select gender</option>
+										<option value="1">male</option>
+										<option value="2">female</option>
+									</select>
+								</div>
+							</fieldset>
+							<fieldset class="buttons">
+								<button type="reset">reset</button>
+								<button type="submit">submit</button>
+							</fieldset>
+						</form>
+					</div>
+					<div>
+						<form action=""
+						      method="post">
+							<fieldset class="info">
+								<legend>notes</legend>
+								<div class="row">
+									<select name="officer">
+										<option value="">select health officer</option>
+										<option value="">dr so and so</option>
+									</select>
+								</div>
+								<div class="row">
+									<textarea name="notes"
+									          placeholder="enter notes here"
+									          required="required"></textarea>
+								</div>
+							</fieldset>
+							<fieldset class="buttons">
+								<button type="reset">reset</button>
+								<button type="submit">submit</button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
